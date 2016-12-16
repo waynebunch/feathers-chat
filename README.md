@@ -1,5 +1,7 @@
 #FeathersJS Chat Application Breakdown
 
+## Breakdown of the files will be in `breakdown` directory
+
 **For those asking, these are needed to do this:  NodeJS and npm (included with node)**
 
 **I'm new to Git as well so bear with me...**
