@@ -9,10 +9,11 @@ it to identify the project as well as handle the project's dependencies.
 https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json
 
 ```
-In English, this gives npm all the information it needs to install your package, down to all the 
+This gives npm all the information it needs to install your package, down to all the 
 dependencies.  When you run `npm install`, it checks this to see what engines, scripts, and 
-node_modules are needed to run your app.
+node_modules are needed to run your app.  Easy peesy.
 
+```
 {
   "name": "feathers-chat",
   "description": "First Feathers App",
@@ -59,3 +60,4 @@ node_modules are needed to run your app.
     "request": "^2.79.0"
   }
 }
+```
