@@ -2,8 +2,7 @@
 
 Windows: https://nodejs.org/en/
 
-Linux: Available for all package managers I would imagine.
-       Archlinux has it available in official repo
+Linux: Available for all package managers I would imagine. Archlinux has it available in official repo.
 
 - FeathersJS Test Application Breakdown -
 
