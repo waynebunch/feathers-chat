@@ -1,5 +1,16 @@
-Starting off with package.json as it's the first file that actually looked
-at upon running `npm install`.
+#_package.json#
+
+Here we go!  Every note on here implies I didn't know much about it, so I did a little research
+on it.  These explanations are from a learning dev, so they might not even be 100% correct, it's 
+just how I see it.  Hopefully it opens a discussion and the correct answers can be pushed.  This 
+seems the best way for me to learn as a self-proclaimed intermediate JS developer.  I want to 
+learn the MEAN (Mongo, Express, Angular, Node) stack and this has everything except Angular.  
+I can do that later...
+
+I started off with package.json because I believe it would be the first file touched after the
+cloning of https://github.com/waynebunch/feathers-chat.git.  When `npm install` is ran, npm looks
+through `package.json` to get all the information.  It takes that information and reaches out to 
+npmjs.com and installs the dependencies.  Damn straight.
 
 ```
 All npm packages contain a file, usually in the project root, called package.json - this file holds 
@@ -9,15 +20,12 @@ it to identify the project as well as handle the project's dependencies.
 https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json
 
 ```
-This gives npm all the information it needs to install your package, down to all the 
-dependencies.  When you run `npm install`, it checks this to see what engines, scripts, and 
-node_modules are needed to run your app.  Easy peesy.
-
-```
 {
   "name": "feathers-chat",
+
 ```
-Name is important.  
+Name is important. This will indentify your project and how else are they going to find your
+app on npmjs.com?  
 
 ```
   "description": "First Feathers App",
@@ -27,7 +35,8 @@ Name is important.
 ```
  `main` tells npm where to find the main app.  In this app, if the developer does a 
  `require(app)` it will return your main modules exports. More on this in breakdown of
- src/app.js
+ /feathers-chat/src/app.js
+
 ```
   "keywords": [
     "feathers"
@@ -36,6 +45,7 @@ Name is important.
 ```
  Choose your license.  Best way to read about this if it's new is:
  choosealicense.com.  Just choose MIT...
+
 ```
   "repository": {},
   "author": {},
@@ -44,32 +54,38 @@ Name is important.
   "engines": {
     "node": ">= 0.12.0"
 ```
- This tells user what node they must have installed.  Very important as features have changed
+ `node` tells user what node version they must have installed.  Very important as features have changed
  drastically over time.
+
 ```
   },
   "scripts": {
     "test": "npm run jshint && npm run mocha",
 ```
- `npm test` will run the above.  If you're unfamiliar with testing, get familiar.
+ Command `npm test` in /feathers-chat/ will run the above.  If you're unfamiliar with testing, get familiar.
  https://mochajs.org/
  jshint.com
- This will be vital for any situation in a real developing situation, or just for fun projects.
+ This will be vital for any situation in a real developing situation and is just good practice.
 ```
     "jshint": "jshint src/. test/. --config",
 ```
- Tells npm where to find config for jshint
+ Tells npm where to find config and code for jshint
 ```
     "start": "node src/",
 ```
  When `npm start` is ran, npm looks here to know where to find your main app to run.  In this
  example, `npm start` looks in `src` and runs `index.js` %%% need to find out why it uses 
  index.js and not app.js
+
 ```
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
+```
+`body-parser` brings us to an important part of Express and Node.  
+
+```
     "compression": "^1.6.2",
     "cors": "^2.8.1",
     "feathers": "^2.0.3",
