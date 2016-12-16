@@ -65,6 +65,7 @@ Name is important.
  When `npm start` is ran, npm looks here to know where to find your main app to run.  In this
  example, `npm start` looks in `src` and runs `index.js` %%% need to find out why it uses 
  index.js and not app.js
+```
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
