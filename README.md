@@ -1,6 +1,6 @@
 - FeathersJS Test Application Breakdown -
 
-Next I'm going to learn more ES6 and Node by breaking down a test app availale at:
+Next I'm going to learn more ES6, Express, Node, and FeathersJS by breaking down a test app availale at:
 
 https://docs.feathersjs.com/getting-started/readme.html
 
@@ -11,7 +11,9 @@ What it is:
 	1.  Built on top of Express
 	2.  Services oriented.  These services are easy to create (takes 10 seconds and is automatic) and provide full CRUD on a resource. 
 	    Resource can be located literally anywhwere.
-	3.  Pick and choose what you want to install.  Feathers can be added to and Express program after it's already created!
+	3.  Hooks!  This is what really piqued my interest.  Allows before and after methods to be performed on services.
+		https://docs.feathersjs.com/hooks/readme.html
+	3.  Pick and choose what you want to install.  Feathers can be added to an Express program after it's already created!
 	4.  Uses socket.io for "real-time" communications
 	5.  Supported by a TON of db's
 
@@ -40,7 +42,7 @@ What it is:
 
 	6.  Full authentication and authorization built in (JWT Web Joken)
 
-Really, check it out as I didn't even srape the surface.
+Really, check it out as I didn't even scratch the surface.
 
 I'll be adding breakdowns of each file as I see them (breakdown folder), as I try to understand what the hell is going on.
 
