@@ -1,16 +1,24 @@
+#FeathersJS Chat Application Breakdown
+
 **For those asking, these are needed to do this:  NodeJS and npm (included with node)**
 
 **I'm new to Git as well so bear with me...**
 
-Windows: https://nodejs.org/en/
-
-Linux: Available for all package managers I would imagine. Archlinux has it available in official repo.
-
-#FeathersJS Test Application Breakdown
+	1.  Install node
+		1.  Linux: Available for all package managers I would imagine. 
+		    Archlinux has it available in official repo.
+		2.  Windows: https://nodejs.org/en/
+	2.  Install FeathersJS  
+		1.  $ npm install -g feathers-cli
+	3.  Clone my repo
+		1.  git clone https://github.com/waynebunch/feathers-chat.git
+	4.  Go to directory and do:
+		1.  npm install (it will d/l and install appropiate modules)
+		2.  npm start
 
 Next I'm going to learn more ES6, Express, Node, and FeathersJS by breaking down a test app availale at:
 
-https://docs.feathersjs.com/getting-started/readme.html
+https://docs.feathersjs.com/getting-started/quick-start.html
 
 This looks like a pretty promising framework that I'm sure I'll be using.
 
