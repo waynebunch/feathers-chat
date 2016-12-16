@@ -2,14 +2,16 @@ Starting off with package.json as it's the first file that actually looked
 at upon running `npm install`.
 
 ```
-All npm packages contain a file, usually in the project root, called package.json - this file holds various metadata relevant to the project. This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies.
+All npm packages contain a file, usually in the project root, called package.json - this file holds 
+various metadata relevant to the project. This file is used to give information to npm that allows
+it to identify the project as well as handle the project's dependencies.
 
 https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json
 
 ```
-In English, this gives npm all the information it needs to install your package, down to all the dependencies.
-When you run `npm install`, it checks this to see what engines, scripts, and node_modules are needed to run
-your app.
+In English, this gives npm all the information it needs to install your package, down to all the 
+dependencies.  When you run `npm install`, it checks this to see what engines, scripts, and 
+node_modules are needed to run your app.
 
 {
   "name": "feathers-chat",
