@@ -1,6 +1,6 @@
-** For those asking, these are needed to do this:  NodeJS and npm (included with node)
+** For those asking, these are needed to do this:  NodeJS and npm (included with node)**
 
-I'm new to Git as well so bear with me...**
+**I'm new to Git as well so bear with me...**
 
 Windows: https://nodejs.org/en/
 
@@ -24,29 +24,28 @@ What it is:
 	3.  Pick and choose what you want to install.  Feathers can be added to an Express program after it's already created!
 	4.  Uses socket.io for "real-time" communications
 	5.  Supported by a TON of db's
-
-			AsyncStorage - feathers-localstorage
-			localStorage - feathers-localstorage
-			Memory - feathers-memory
-			MongoDB
-			NeDB - feathers-nedb
-			RethinkDB - feathers-rethinkdb
-			PostgreSQL, MySQL, MariaDB, and SQLite
-			Oracle - feathers-knex
-			Microsoft SQL Server - feathers-sequelize
-			Redis
-			Riak
-			Neo4j
-			OrientDB
-			ArangoDB
-			Apache Cassandra
-			GraphQL
-			LevelDB
-			Amazon DynamoDB
-			Windows Azure Table Storage
-			Redis
-			Riak
-			Google Sheets
+		..1. AsyncStorage - feathers-localstorage
+		..2. localStorage - feathers-localstorage
+		..3. Memory - feathers-memory
+		..4. MongoDB
+		..5. NeDB - feathers-nedb
+		..6. RethinkDB - feathers-rethinkdb
+		..7. PostgreSQL, MySQL, MariaDB, and SQLite
+		..8. Oracle - feathers-knex
+		..9. Microsoft SQL Server - feathers-sequelize
+		..10. Redis
+		..11. Riak
+		..12. Neo4j
+		..13. OrientDB
+		..14. ArangoDB
+		..15. Apache Cassandra
+		..16. GraphQL
+		..17. LevelDB
+		..18. Amazon DynamoDB
+		..19. Windows Azure Table Storage
+		..20. Redis
+		..21. Riak
+		..22. Google Sheets
 
 	6.  Full authentication and authorization built in (JWT Web Joken)
 
@@ -58,6 +57,6 @@ I task you to make me look good.
 
 Thanks!
 
--emp[ ]y
+-Wayne B.
 
  
