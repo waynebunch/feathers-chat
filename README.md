@@ -15,6 +15,11 @@
 	4.  Go to directory and do:
 		1.  npm install (it will d/l and install appropiate modules)
 		2.  npm start
+	5.  In your browser, goto localhost:3030 and the chat server should be running.
+
+	If this doesn't work let me know what the error is.  Either way, you still have the code and you
+
+	can follow along with that.
 
 Next I'm going to learn more ES6, Express, Node, and FeathersJS by breaking down a test app availale at:
 
