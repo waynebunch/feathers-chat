@@ -1,10 +1,12 @@
 ** For those asking, these are needed to do this:  NodeJS and npm (included with node)
 
+I'm new to Git as well so bear with me...**
+
 Windows: https://nodejs.org/en/
 
 Linux: Available for all package managers I would imagine. Archlinux has it available in official repo.
 
-- FeathersJS Test Application Breakdown -
+#FeathersJS Test Application Breakdown
 
 Next I'm going to learn more ES6, Express, Node, and FeathersJS by breaking down a test app availale at:
 
