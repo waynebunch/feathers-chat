@@ -1,57 +1,53 @@
-# feathers-chat
+- FeathersJS Test Application Breakdown -
 
-> First Feathers App
+Next I'm going to learn more ES6 and Node by breaking down a test app availale at:
 
-## About
+https://docs.feathersjs.com/getting-started/readme.html
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+This looks like a pretty promising framework that I'm sure I'll be using.
 
-## Getting Started
+What it is:
 
-Getting up and running is as easy as 1, 2, 3.
+	1.  Built on top of Express
+	2.  Services oriented.  These services are easy to create (takes 10 seconds and is automatic) and provide full CRUD on a resource. 
+	    Resource can be located literally anywhwere.
+	3.  Pick and choose what you want to install.  Feathers can be added to and Express program after it's already created!
+	4.  Uses socket.io for "real-time" communications
+	5.  Supported by a TON of db's
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
-    
-    ```
-    cd path/to/feathers-chat; npm install
-    ```
+			AsyncStorage - feathers-localstorage
+			localStorage - feathers-localstorage
+			Memory - feathers-memory
+			MongoDB
+			NeDB - feathers-nedb
+			RethinkDB - feathers-rethinkdb
+			PostgreSQL, MySQL, MariaDB, and SQLite
+			Oracle - feathers-knex
+			Microsoft SQL Server - feathers-sequelize
+			Redis
+			Riak
+			Neo4j
+			OrientDB
+			ArangoDB
+			Apache Cassandra
+			GraphQL
+			LevelDB
+			Amazon DynamoDB
+			Windows Azure Table Storage
+			Redis
+			Riak
+			Google Sheets
 
-3. Start your app
-    
-    ```
-    npm start
-    ```
+	6.  Full authentication and authorization built in (JWT Web Joken)
 
-## Testing
+Really, check it out as I didn't even srape the surface.
 
-Simply run `npm test` and all your tests in the `test/` directory will be run.
+I'll be adding breakdowns of each file as I see them (breakdown folder), as I try to understand what the hell is going on.
 
-## Scaffolding
+I task you to make me look good.
 
-Feathers has a powerful command line interface. Here are a few things it can do:
+Thanks!
 
-```
-$ npm install -g feathers-cli             # Install Feathers CLI
+-emp[ ]y
 
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers generate model                 # Generate a new Model
-$ feathers help                           # Show all commands
-```
-
-## Help
-
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
-
-## Changelog
-
-__0.1.0__
-
-- Initial release
-
-## License
-
-Copyright (c) 2016
-
-Licensed under the [MIT license](LICENSE).
+ 
