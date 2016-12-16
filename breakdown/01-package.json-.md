@@ -20,6 +20,7 @@ it to identify the project as well as handle the project's dependencies.
 https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json
 
 ```
+```
 {
   "name": "feathers-chat",
 
