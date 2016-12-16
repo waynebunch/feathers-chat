@@ -17,6 +17,9 @@
 	4.  Go to directory and do:
 		1.  npm install (it will d/l and install appropiate modules)
 		2.  npm start
+		3.  You should see 'Feathers application started on localhost:3030'
+		    This string is in the `src/app.js` file and prints at execution 
+		    of `npm start`
 	5.  In your browser, goto localhost:3030 and the chat server should be running.
 
 	If this doesn't work let me know what the error is.  Either way, you still have the code and you
