@@ -1,4 +1,4 @@
-** For those asking, these are needed to do this:  NodeJS and npm (included with node)
+**For those asking, these are needed to do this:  NodeJS and npm (included with node)
 
 I'm new to Git as well so bear with me...**
 
