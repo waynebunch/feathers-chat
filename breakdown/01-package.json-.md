@@ -1,9 +1,9 @@
 #_package.json#
 
-
 I started off with package.json because I believe it would be the first file touched after the
 cloning of https://github.com/waynebunch/feathers-chat.git.  When `npm install` is ran, npm looks
-through `package.json` to get all the information.  It takes that information and reaches out to 
+through `package.json` to get all the app information needed to install and run my app.  This would
+be the case for any program available through npm.  It takes that information and reaches out to 
 npmjs.com and installs the dependencies.  Damn straight.
 
 ```
@@ -19,19 +19,23 @@ https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package
   "name": "feathers-chat",
 
 ```
-Name is important. This will indentify your project and how else are they going to find your
-app on npmjs.com?  
+Name is important and required.  Should be lowercase.   This will indentify your project and how 
+else are they going to find your app on npmjs.com, should you choose to publish it?  
 
 ```
   "description": "First Feathers App",
   "version": "0.0.0",
+```
+Standard versioning here.  MAJOR.MINOR.PATCH (0.0.0) whereas major is any API incompatibility 
+issues, minor being added functionality with backward compatibility, patch being bug fixes.
+
+```
   "homepage": "",
   "main": "src/",
 ```
  `main` tells npm where to find the main app.  In this app, if the developer does a 
  `require(app)` it will return your main modules exports. More on this in breakdown of
- /feathers-chat/src/app.js
-
+ /feathers-chat/src/app.js.  ###ADD REF
 ```
   "keywords": [
     "feathers"
@@ -39,33 +43,35 @@ app on npmjs.com?
   "license": "MIT",
 ```
  Choose your license.  Best way to read about this if it's new is:
- choosealicense.com.  Just choose MIT...
+ choosealicense.com.  This tells other dev's how they can use your code.   Just choose MIT...
 
 ```
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/waynebunch/feathers-chat.git"
+  },
   "author": {},
   "contributors": [],
   "bugs": {},
   "engines": {
     "node": ">= 0.12.0"
 ```
- `node` tells user what node version they must have installed.  Very important as features have changed
- drastically over time.
+ `node` tells user what node version they must have installed to run the app.  Very important
+as features have changed drastically over time.
 
 ```
   },
   "scripts": {
+```
+
+Scripts are seperate options that can be run with npm.  This object key is the npm command and 
+the value is the script path.  This comes in very handy when the dev has other cli options.
+`npm run {command}`
+`npm run start`
+`npm run jslint` etc..
+```
     "test": "npm run jshint && npm run mocha",
-```
- Command `npm test` in /feathers-chat/ will run the above.  If you're unfamiliar with testing, get familiar.
- https://mochajs.org/
- jshint.com
- This will be vital for any situation in a real developing situation and is just good practice.
-```
     "jshint": "jshint src/. test/. --config",
-```
- Tells npm where to find config and code for jshint
-```
     "start": "node src/",
 ```
  When `npm start` is ran, npm looks here to know where to find your main app to run.  In this
