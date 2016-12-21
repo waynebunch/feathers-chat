@@ -2,6 +2,27 @@
 
 ## Breakdown of the files will be in `breakdown` directory
 
+## I will start with the package.json file and work my way down as I see it
+
+A MEAN (Mongo, Express, Angular, Node and JS by proxy) tutorial for novices, by a novice.  I've
+spent so much time trying to figure out what my next move is to get into the dev world.  I figure
+I'm at an intermediate level where I could do the job, but getting the job would be much harder.
+Enter Git, where I'm going to start contributing like mad.
+
+**The best way for me to learn is through teaching to myself, and hopefully it helps others.**
+
+The idea:  Go through developed code that has a little bit of everything, and when I don't know 
+something, figure it out and write about it.  Reverse engineer the hell out of it.
+
+This is my attempt.
+
+Every note on here implies I didn't know much about it, so I did a little research
+on it.  These explanations are from a learning dev, so they might not even be 100% correct, it's 
+just how I see it.  Hopefully it opens a discussion and the correct answers can be pushed.  This 
+seems the best way for me to learn as a self-proclaimed intermediate JS developer.  I want to 
+learn the MEAN (Mongo, Express, Angular, Node) stack and this has everything except Angular.  
+I can do that later...
+
 **For those asking, these are needed to do this:  NodeJS and npm (included with node)**
 
 **I'm new to Git as well so bear with me...**
@@ -22,13 +43,12 @@
 		    of `npm start`
 	5.  In your browser, goto localhost:3030 and the chat server should be running.
 
-	If this doesn't work let me know what the error is.  Either way, you still have the code and you
+If this doesn't work let me know what the error is.  Either way, you still have the code and you
+can follow along with that.  
 
-	can follow along with that.
+I'm going to learn more ES6, Express, Node, and FeathersJS by breaking down a test app  that I 
 
-Next I'm going to learn more ES6, Express, Node, and FeathersJS by breaking down a test app availale at:
-
-https://docs.feathersjs.com/getting-started/quick-start.html
+built, availale at:  https://docs.feathersjs.com/getting-started/quick-start.html
 
 This looks like a pretty promising framework that I'm sure I'll be using.
 

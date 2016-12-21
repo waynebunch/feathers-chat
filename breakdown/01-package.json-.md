@@ -1,11 +1,5 @@
 #_package.json#
 
-Here we go!  Every note on here implies I didn't know much about it, so I did a little research
-on it.  These explanations are from a learning dev, so they might not even be 100% correct, it's 
-just how I see it.  Hopefully it opens a discussion and the correct answers can be pushed.  This 
-seems the best way for me to learn as a self-proclaimed intermediate JS developer.  I want to 
-learn the MEAN (Mongo, Express, Angular, Node) stack and this has everything except Angular.  
-I can do that later...
 
 I started off with package.json because I believe it would be the first file touched after the
 cloning of https://github.com/waynebunch/feathers-chat.git.  When `npm install` is ran, npm looks
