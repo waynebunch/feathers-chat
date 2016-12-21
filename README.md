@@ -44,11 +44,10 @@ I can do that later...
 	5.  In your browser, goto localhost:3030 and the chat server should be running.
 
 If this doesn't work let me know what the error is.  Either way, you still have the code and you
-can follow along with that.  
+can follow along with that. I'm going to learn more ES6, Express, Node, and FeathersJS by breaking
+down a test app  that I built, availale at:  
 
-I'm going to learn more ES6, Express, Node, and FeathersJS by breaking down a test app  that I 
-
-built, availale at:  https://docs.feathersjs.com/getting-started/quick-start.html
+https://docs.feathersjs.com/getting-started/quick-start.html
 
 This looks like a pretty promising framework that I'm sure I'll be using.
 
